@@ -1,51 +1,44 @@
-Project 01 — To-Do App
+# 📝 Project 01 — To-Do App
 
-A simple To-Do application built with HTML, CSS and Vanilla JavaScript.
+> A simple and responsive To-Do application built with **HTML, CSS and Vanilla JavaScript**.
 
-About
+## 📌 About
 
-The goal of this project is to practice the basics of frontend development by building a small application with:
+The goal of this project is to practice the fundamentals of frontend development by building a small, functional application.
 
-DOM manipulation
+Through this project I am working with:
 
-Events
+- 🌳 DOM manipulation
+- ⚡ Events
+- 🧠 State management
+- 📦 Objects & Arrays
+- 💾 `localStorage` & JSON
+- 📱 Responsive UI
 
-State management
+## ✨ Features
 
-Objects and Arrays
+- ➕ Add tasks
+- ✏️ Edit tasks
+- 🗑️ Delete tasks
+- ✅ Complete / Uncomplete tasks
+- 🔎 Filter by **All / Active / Completed**
+- 💾 Persist tasks with `localStorage`
+- 📱 Responsive layout
+- 📭 Empty state
 
-localStorage and JSON
+## 🛠️ Tech Stack
 
-Responsive UI
+| Technology | Usage |
+|------------|-------|
+| HTML | Structure |
+| CSS | Styling & responsive layout |
+| JavaScript | Application logic |
+| Git | Version control |
 
-Features
+## 🎯 Project Goal
 
-Add tasks
+Build the application from scratch and understand how the different parts work together:
 
-Edit tasks
+**User Action → State Change → Render UI → Persistence**
 
-Delete tasks
-
-Complete / Uncomplete tasks
-
-Filter: All / Active / Completed
-
-Save tasks with localStorage
-
-Responsive layout
-
-Empty state
-
-Tech Stack
-
-HTML
-
-CSS
-
-Vanilla JavaScript
-
-Git
-
-Project Goal
-
-Build the application from scratch and understand how user actions change the state, how the UI is rendered from that state, and how data is persisted between page refreshes.
+The goal is not only to make the application work, but to understand the logic behind it and be able to explain the important parts of the code.
