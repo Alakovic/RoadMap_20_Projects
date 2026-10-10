@@ -1,16 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Tasks</title>
-  <link rel="icon" href="assets/icons/Paper-Write--Streamline-Ultimate.svg" type="image/x-icon">
-  <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Tasks</title>
+    <link
+      rel="icon"
+      href="assets/icons/Paper-Write--Streamline-Ultimate.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body onload="init()">
     <section class="app">
-     <h1>My Tasks</h1>
+      <div class="headline">
+        <div class="headline-left">
+          <svg
+            width="50"
+            height="50"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM17.8 8.6C18.1314 8.15817 18.0418 7.53137 17.6 7.2C17.1582 6.86863 16.5314 6.95817 16.2 7.4L10.8918 14.4776L8.70711 12.2929C8.31658 11.9024 7.68342 11.9024 7.29289 12.2929C6.90237 12.6834 6.90237 13.3166 7.29289 13.7071L10.2929 16.7071C10.4979 16.9121 10.7817 17.018 11.0709 16.9975C11.3601 16.9769 11.6261 16.8319 11.8 16.6L17.8 8.6Z"
+              fill="#377d5b"
+            />
+          </svg>
+          <div class="headline-title">
+            <h1>My Tasks</h1>
+          </div>
+        </div>
+        <div class="headline-right">
+          <button id="toggleButton">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="12"
+                cy="12"
+                r="5"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+              <path
+                d="M12 2V4"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <path
+                d="M12 20V22"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <path
+                d="M4 12L2 12"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <path
+                d="M22 12L20 12"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <path
+                d="M19.7778 4.22266L17.5558 6.25424"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <path
+                d="M4.22217 4.22266L6.44418 6.25424"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <path
+                d="M6.44434 17.5557L4.22211 19.7779"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <path
+                d="M19.7778 19.7773L17.5558 17.5551"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+            </svg>
+            <span>Light</span>
+          </button>
+        </div>
+      </div>
     </section>
-    <p class="footer-text">Small steps, meaningful progress.</p>
-</body>
+  </body>
+  <script src="script.js"></script>
 </html>
